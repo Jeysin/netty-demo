@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c446a47-e66e-4d5e-8f32-37b142a55793" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/NIO/PlainNIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/netty/OIO/NettyOIOServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/JDK/OIO/PlainOIOServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/JDK/OIO/PlainOIOServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/JDK/OIO/PlainOIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/JDK/OIO/PlainOIOServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/NIO/PlainNIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/NIO/PlainNIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/JDK/NIO/PlainNIOServer.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/JDK/NIO/PlainNIOServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+            <state relative-caret-position="-1771">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,10 +58,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+            <state relative-caret-position="520">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/netty/OIO/NettyOIOServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#970#1618#0" expanded="true" />
+                <element signature="e#1206#1569#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/NIO/PlainNIOServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeysin/netty/OIO/NettyOIOServer.java" />
       </list>
     </option>
   </component>
@@ -168,16 +182,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jeysin" type="462c0819:PsiDirectoryNode" />
-              <item name="EchoServer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jeysin" type="462c0819:PsiDirectoryNode" />
               <item name="JDK" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551795702808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551796803454" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RPC" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -248,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoServerImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jeysin.EchoServer.EchoServerImpl" />
+    <configuration name="NettyOIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jeysin.netty.OIO.NettyOIOServer" />
       <module name="netty-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jeysin.EchoServer.*" />
+          <option name="PATTERN" value="com.jeysin.netty.OIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,10 +307,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PlainOIOClient" />
+        <item itemvalue="Application.NettyOIOServer" />
         <item itemvalue="Application.PlainNIOServer" />
         <item itemvalue="Application.PlainOIOServer" />
         <item itemvalue="Application.EchoClientImpl" />
-        <item itemvalue="Application.EchoServerImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -322,12 +326,12 @@
       <updated>1551624488449</updated>
       <workItem from="1551624490337" duration="9037000" />
       <workItem from="1551709990145" duration="9000" />
-      <workItem from="1551710043108" duration="11191000" />
+      <workItem from="1551710043108" duration="12267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20237000" />
+    <option name="totallyTimeSpent" value="21313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,6 +344,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,16 +356,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46380696" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46380696" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32931727" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32841823" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32841823" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -505,18 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/ApplicationStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/nio/DirectByteBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -535,12 +528,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/ApplicationStarter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -548,7 +543,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -557,10 +552,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/JDK/NIO/PlainNIOServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+        <state relative-caret-position="-1771">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/JDK/OIO/PlainOIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/netty/OIO/NettyOIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#970#1618#0" expanded="true" />
+            <element signature="e#1206#1569#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
           </folding>
         </state>
       </provider>

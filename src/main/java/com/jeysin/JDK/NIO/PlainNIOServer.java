@@ -1,7 +1,5 @@
 package com.jeysin.JDK.NIO;
 
-import org.apache.catalina.Server;
-
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.nio.ByteBuffer;
