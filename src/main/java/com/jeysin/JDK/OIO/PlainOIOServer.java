@@ -44,7 +44,7 @@ public class PlainOIOServer {
     public static void main(String[] args) {
         PlainOIOServer plainOIOServer = new PlainOIOServer();
         try {
-            plainOIOServer.server(10002);
+            plainOIOServer.server(10001);
         } catch (Exception e){
             e.printStackTrace();
         }

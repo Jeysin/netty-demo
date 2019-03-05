@@ -26,7 +26,7 @@ public class PlainOIOClient {
     public static void main(String[] args){
         PlainOIOClient plainOIOClient = new PlainOIOClient();
         try {
-            plainOIOClient.server("localhost", 10002);
+            plainOIOClient.server("localhost", 10001);
         } catch (Exception e){
             e.printStackTrace();
         }
