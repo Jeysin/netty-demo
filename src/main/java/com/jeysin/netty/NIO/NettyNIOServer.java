@@ -21,7 +21,10 @@ import java.nio.charset.Charset;
 
 public class NettyNIOServer {
     public void server(Integer port) throws Exception{
-        //这句这样写的话会出问题，客户端只能连接一次，不能重复连接
+        /**
+         * 这句如果这样写的话会出问题，客户端只能连接一次，不能重复连接。
+         * 原因是ByteBuf会被释放, 引用计数被置为0，然后第二次再访问这个ByteBuf的时候会抛出一个IllegalReferenceCountException异常
+         */
         //ByteBuf byteBuf = Unpooled.copiedBuffer("Hi, jeysin, 你好", Charset.forName("UTF-8"));
 
         ByteBuf byteBuf = Unpooled.unreleasableBuffer(Unpooled.copiedBuffer("Hi, jeysin, 你好", Charset.forName("UTF-8")));
