@@ -21,7 +21,7 @@ public class ScheduleDemo {
         executor.shutdown();
     }
 
-    public static void test2(){
+    public static void test2() throws Exception{
         ScheduledExecutorService executor = Executors.newScheduledThreadPool(5);
         ScheduledFuture future = executor.scheduleAtFixedRate(
                 new Runnable() {
@@ -29,10 +29,14 @@ public class ScheduleDemo {
                     public void run() {
                         System.out.println("5 seconds later");
                     }
-                }, 1, 5, TimeUnit.SECONDS);
+                }, 1, 1, TimeUnit.SECONDS);
+        Thread.sleep(10000);
+        System.out.println("Main Thread: I am wake up");
+        future.cancel(false);
+        executor.shutdown();
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception{
         test2();
     }
 }
