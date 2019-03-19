@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * @Author: Jeysin
  * @Date: 2019/3/19 21:59
- * @Desc: 防止数据被切片传输的一种写法
+ * @Desc: 防止数据被切片传输的一种写法(不使用解码器方法)
  */
 
 public class TimeClientHandler2 extends ChannelInboundHandlerAdapter {

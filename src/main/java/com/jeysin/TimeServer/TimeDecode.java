@@ -18,6 +18,6 @@ public class TimeDecode extends ByteToMessageDecoder {
         if(byteBuf.readableBytes() < 4){
             return;
         }
-        list.add(new UnixTime(byteBuf.readBytes(4)));
+        list.add(new UnixTime(byteBuf.readUnsignedInt()));
     }
 }

@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c446a47-e66e-4d5e-8f32-37b142a55793" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeDecode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/UnixTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/example/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/netty/schedule/EventLoopScheduleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeEncode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/EchoServer/EchoClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/EchoServer/EchoClientImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/EchoServer/EchoServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/EchoServer/EchoServerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/schedule/ScheduleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/schedule/ScheduleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/EchoServer/EchoClientImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/EchoServer/EchoClientImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/EchoServer/EchoClientImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/EchoServer/EchoClientImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/EchoServer/EchoServerImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/EchoServer/EchoServerImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/EchoServer/EchoServerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/EchoServer/EchoServerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/JDK/schedule/ScheduleDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/JDK/schedule/ScheduleDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeDecode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeDecode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/TimeServer/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/TimeServer/TimeClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/TimeServer/TimeDecode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/TimeServer/TimeDecode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/TimeServer/TimeServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/TimeServer/TimeServerHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jeysin/TimeServer/TimeServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jeysin/TimeServer/TimeServerHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,23 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeDecode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +73,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/netty/NIO/NettyNIOServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="234">
               <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,22 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/EchoServer/EchoServerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="388">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,11 +133,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="258">
+              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeEncode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -191,15 +179,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/JDK/schedule/ScheduleDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/EchoServer/EchoClientImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/example/Example.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/EchoServer/EchoServerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/UnixTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeDecode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler2.java" />
       </list>
     </option>
   </component>
@@ -297,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553005071285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553005697255" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RPC" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -409,12 +397,12 @@
       <workItem from="1551710043108" duration="26876000" />
       <workItem from="1552183927464" duration="4333000" />
       <workItem from="1552360850569" duration="1335000" />
-      <workItem from="1552987301351" duration="6281000" />
+      <workItem from="1552987301351" duration="6804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47871000" />
+    <option name="totallyTimeSpent" value="48394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,26 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/netty/NIO/NettyNIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/EchoServer/EchoServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -738,30 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -796,13 +744,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeDecode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/netty/NIO/NettyNIOServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="234">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeDecode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeEncode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
