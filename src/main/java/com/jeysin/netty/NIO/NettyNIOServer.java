@@ -27,7 +27,7 @@ public class NettyNIOServer {
          */
         //ByteBuf byteBuf = Unpooled.copiedBuffer("Hi, jeysin, 你好", Charset.forName("UTF-8"));
 
-        ByteBuf byteBuf = Unpooled.unreleasableBuffer(Unpooled.copiedBuffer("Hi, jeysin, 你好", Charset.forName("UTF-8")));
+        final ByteBuf byteBuf = Unpooled.unreleasableBuffer(Unpooled.copiedBuffer("Hi, jeysin, 你好", Charset.forName("UTF-8")));
         EventLoopGroup group = new NioEventLoopGroup();
         try{
             ServerBootstrap b = new ServerBootstrap();
