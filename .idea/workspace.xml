@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c446a47-e66e-4d5e-8f32-37b142a55793" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/io/File/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/io/Pipe/PipeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/io/Stream/ByteArrayInputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/io/Stream/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/io/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/io/pojo/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/slf4j/TestSlf4j.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/nio/ChatClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/nio/ChatServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jeysin/nio/JavaNIODemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeysin/netty/NIO/NettyNIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeysin/netty/NIO/NettyNIOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/WebsocketChatClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WebsocketChatClient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/netty-demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebsocketChatClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebsocketChatClient.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,31 +21,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/io/Pipe/PipeDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/nio/ChatServerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="352">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/io/Stream/ByteArrayInputStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/io/Stream/StreamDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/nio/JavaNIODemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="660">
+              <caret line="180" selection-start-line="180" selection-end-line="180" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,54 +45,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/io/pojo/Teacher.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/nio/ChatClientDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/TimeServer/TimeServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="440">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/io/File/FileDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2046">
-              <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/io/pojo/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -174,6 +113,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/jeysin/io/Pipe/PipeDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeysin/io/Stream/StreamDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeysin/io/pojo/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jeysin/nio/ChatClientDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jeysin/nio/ChatServerDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jeysin/nio/JavaNIODemo.java" />
       </list>
     </option>
   </component>
@@ -256,6 +198,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jeysin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jeysin" type="462c0819:PsiDirectoryNode" />
+              <item name="JDK" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jeysin" type="462c0819:PsiDirectoryNode" />
+              <item name="JDK" type="462c0819:PsiDirectoryNode" />
+              <item name="NIO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -366,14 +329,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jeysin" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jeysin" type="462c0819:PsiDirectoryNode" />
               <item name="slf4j" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,8 +356,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554013073550" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tiny-spring" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554435006583" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -404,13 +377,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo">
-    <configuration name="ByteArrayInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jeysin.io.Stream.ByteArrayInputStreamDemo" />
+  <component name="RunManager" selected="Application.JavaNIODemo">
+    <configuration name="ChatClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jeysin.nio.ChatClientDemo" />
       <module name="netty-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jeysin.io.Stream.*" />
+          <option name="PATTERN" value="com.jeysin.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServerDemo" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jeysin.nio.ChatServerDemo" />
+      <module name="netty-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jeysin.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,12 +417,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PipeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jeysin.io.Pipe.PipeDemo" />
+    <configuration name="JavaNIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jeysin.nio.JavaNIODemo" />
       <module name="netty-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jeysin.io.Pipe.*" />
+          <option name="PATTERN" value="com.jeysin.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,33 +443,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSlf4j" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jeysin.slf4j.TestSlf4j" />
-      <module name="netty-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jeysin.slf4j.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TestSlf4j" />
-      <item itemvalue="Application.PipeDemo" />
-      <item itemvalue="Application.ByteArrayInputStreamDemo" />
       <item itemvalue="Application.FileDemo" />
       <item itemvalue="Application.StreamDemo" />
+      <item itemvalue="Application.JavaNIODemo" />
+      <item itemvalue="Application.ChatServerDemo" />
+      <item itemvalue="Application.ChatClientDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaNIODemo" />
+        <item itemvalue="Application.ChatClientDemo" />
+        <item itemvalue="Application.ChatServerDemo" />
         <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.FileDemo" />
-        <item itemvalue="Application.ByteArrayInputStreamDemo" />
-        <item itemvalue="Application.PipeDemo" />
-        <item itemvalue="Application.TestSlf4j" />
       </list>
     </recent_temporary>
   </component>
@@ -505,12 +478,13 @@
       <workItem from="1552987301351" duration="8056000" />
       <workItem from="1553154269270" duration="19298000" />
       <workItem from="1553337363205" duration="28770000" />
-      <workItem from="1553959444969" duration="1908000" />
+      <workItem from="1553959444969" duration="20044000" />
+      <workItem from="1554371554342" duration="7051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99622000" />
+    <option name="totallyTimeSpent" value="124809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,8 +499,8 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49731904" visible="true" weight="0.20643431" />
-      <window_info id="Structure" order="1" sideWeight="0.50268096" side_tool="true" weight="0.20375335" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49501" visible="true" weight="0.20911528" />
+      <window_info id="Structure" order="1" sideWeight="0.50499004" side_tool="true" weight="0.20643431" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -564,104 +538,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/mavenRepository/io/netty/netty-all/4.0.56.Final/netty-all-4.0.56.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="259" column="13" selection-start-line="259" selection-start-column="13" selection-end-line="259" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/ChatServer/ChatServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/ChatServer/ChatClientImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/ChatServer/ChatClientInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/WebSocketChatServer.java" />
-    <entry file="jar://D:/mavenRepository/io/netty/netty-all/4.0.56.Final/netty-all-4.0.56.Final.jar!/io/netty/handler/codec/DelimiterBasedFrameDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRepository/io/netty/netty-all/4.0.56.Final/netty-all-4.0.56.Final.jar!/io/netty/handler/codec/MessageToMessageDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRepository/io/netty/netty-all/4.0.56.Final/netty-all-4.0.56.Final.jar!/io/netty/handler/codec/string/StringDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRepository/io/netty/netty-all/4.0.56.Final/netty-all-4.0.56.Final.jar!/io/netty/handler/codec/string/StringEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/ChatServer/ChatServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRepository/io/netty/netty-all/4.0.56.Final/netty-all-4.0.56.Final.jar!/io/netty/handler/codec/http/HttpHeaders.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16502">
-          <caret line="874" column="35" selection-start-line="874" selection-start-column="35" selection-end-line="874" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRepository/io/netty/netty-all/4.0.56.Final/netty-all-4.0.56.Final.jar!/io/netty/handler/codec/http/LastHttpContent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/mavenRepository/io/netty/netty-all/4.0.56.Final/netty-all-4.0.56.Final.jar!/io/netty/handler/codec/http/HttpResponseStatus.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2552">
@@ -888,17 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="370" column="11" selection-start-line="370" selection-start-column="11" selection-end-line="370" selection-end-column="11" />
-          <folding>
-            <element signature="e#13098#13099#0" expanded="true" />
-            <element signature="e#13150#13151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/CharArrayReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -927,13 +792,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/io/File/FileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -982,10 +840,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/io/File/FileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/nio/ch/ServerSocketChannelImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/nio/channels/ServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="197" column="40" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/nio/channels/NetworkChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="3097" column="25" selection-start-line="3097" selection-start-column="25" selection-end-line="3097" selection-end-column="25" />
+          <folding>
+            <element signature="e#13098#13099#0" expanded="true" />
+            <element signature="e#13150#13151#0" expanded="true" />
+            <element signature="e#121727#121728#0" expanded="true" />
+            <element signature="e#121769#121770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+          <folding>
+            <element signature="e#5951#5952#0" expanded="true" />
+            <element signature="e#5996#5997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <element signature="e#3011#3012#0" expanded="true" />
+            <element signature="e#3058#3059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/io/Stream/StreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
+        <state relative-caret-position="1166">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="400" column="25" selection-start-line="400" selection-start-column="25" selection-end-line="400" selection-end-column="25" />
+          <folding>
+            <element signature="e#12489#12490#0" expanded="true" />
+            <element signature="e#12528#12529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeysin/JDK/NIO/PlainNIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/nio/ChatServerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/nio/ChatClientDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/org/apache/tomcat/util/log/SystemLogHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="170" column="16" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="16" />
+          <folding>
+            <element signature="e#3941#3942#0" expanded="true" />
+            <element signature="e#3985#3986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeysin/nio/JavaNIODemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
